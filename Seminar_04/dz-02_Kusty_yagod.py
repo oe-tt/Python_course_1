@@ -11,6 +11,8 @@ Kusty  =[]
 for i in range (N):
     Kusty.append(randint(5, 10))
 print(*Kusty)
+
+#1
 K_max = sum(Kusty[:3])
 K_i = 1
 for i in range (2, N-1):
@@ -24,3 +26,10 @@ if sum(Kusty[0:2]) + Kusty[N-1] > K_max:
     K_max = Kusty[0:2] + Kusty[N-1]
     K_i = 0
 print(f"Встав перед кустом № {K_i}, можно собрать наибольшее количество ягод = {K_max}")
+
+#2
+# Kusty_count = []
+# for i in range (N-1):
+#     Kusty_count.append(Kusty[i-1] + Kusty[i] + Kusty [i+1])
+# Kusty_count.append(Kusty[-2] + Kusty[-1] + Kusty[0])
+# print(max(Kusty_count))
