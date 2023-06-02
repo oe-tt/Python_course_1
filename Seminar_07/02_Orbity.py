@@ -17,8 +17,10 @@
 # 2.5 10
 
 orbits = [(1, 3), (2.5, 10), (7, 2), (6, 6), (4, 3)]
-pi = 3.14
+# pi = 3.14
 # orbits = list(filter(lambda x,y: x,y if x!= y))
 # S = lambda a, b: pi*a*b if a != b
 
-# ! разобраться и сделать!
+def find_orb(orbits):
+    return max(orbits, key = lambda x: x[0]*x[1] if x[0] != x[1] else -1)
+print(find_orb(orbits))
