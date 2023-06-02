@@ -53,7 +53,7 @@ def sortirovka(sposob):
         data = file.readlines()
     if sposob == 2:     # сортировка по фамилии
         # new_data = str(sorted(data))
-        with open("E:/2022/Python/Course_1/Seminar_08/Telephone_book/tel_book_1.txt", "w") as file:
+        with open("E:/2022/Python/Course_1/Seminar_08/Telephone_book/tel_book.txt", "w") as file:
             data.sort()
             file.writelines(data)
         print(data)
@@ -62,7 +62,7 @@ def sortirovka(sposob):
             # file.writelines(new_data)
             # print(new_data)
     if sposob == 1:     # сортировка по имени
-        with open("E:/2022/Python/Course_1/Seminar_08/Telephone_book/tel_book_1.txt", "w") as file:
+        with open("E:/2022/Python/Course_1/Seminar_08/Telephone_book/tel_book.txt", "w") as file:
             for i in range(len(data)):
                 data[i] = list(data[i].split())
             data.sort(key = lambda x: x[1])
@@ -72,7 +72,7 @@ def sortirovka(sposob):
         print(data)
     
     if sposob == 3:     # сортировка по дате рождения
-        with open("E:/2022/Python/Course_1/Seminar_08/Telephone_book/tel_book_1.txt", "w") as file:
+        with open("E:/2022/Python/Course_1/Seminar_08/Telephone_book/tel_book.txt", "w") as file:
             for i in range(len(data)):
                 data[i] = list(data[i].split())
             data.sort(key = lambda x: x[4])
