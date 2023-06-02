@@ -1,0 +1,7 @@
+Voronov Vasiliy Pavlovich, d.r.: 03/03/2003 tel.: 258
+Ivanov Ivan Ivanovich, d.r.: 01/01/2000, tel.: 123
+Federov Anton Sergeevich, d.r.: 04/04/2004 tel.: 789
+Petrov Petr Olegovich d.r.: 02/02/2000, tel.: 243
+Lavrova Vera Alekseevna, d.r.: 08/08/1998 tel.: 25855
+Semenova Marina Alekseevna, d.r.: 10/10/2001 tel.: 888
+Kotova Anna Markovna, d.r.: 05/05/2005, tel.: 555
