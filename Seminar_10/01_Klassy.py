@@ -30,7 +30,7 @@ stas = Human("Stas", "Makarov", 20, [])
 
 
 lst = [ivan, petr, vasya, dima, fedya, stas]
-print(*lst)
+print(lst)
 
 for i in lst:
     i.grades = [randint(1,5) for j in range (10)]
